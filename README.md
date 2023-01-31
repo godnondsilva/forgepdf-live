@@ -14,13 +14,6 @@ A PDF editor application for windows using Tkinter and Flask.
   - For Unix based systems (environment_name): `source <environment_name>/bin/activate`.
 - Install dependencies `pip install -r requirements.txt`.
 
-## Setting frontend environment variables
-
-- Create a copy of .env.example to .env `cp .env.example .env`.
-- For `BACKEND_URL`:
-  - In local development, set the variable to `http://localhost:5000`.
-  - In production development, set the variable to the published URL
-
 ## Running frontend in development mode
 
 - Run the project `py main.py --dev` [--dev option must be specified].
@@ -34,7 +27,7 @@ A PDF editor application for windows using Tkinter and Flask.
 ## Running frontend in production mode & packaging
 
 - The file `ForgePDF.exe` file will execute the application.
-- Package together the folder dist along with the .env file.
+- Package together along the dist folder and you can share the application.
 
 # Backend Documentation (Flask)
 
