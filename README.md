@@ -1,6 +1,7 @@
-# ForgePDF
+# ForgePDF Live
 
 A PDF editor application for windows using Tkinter and Flask.
+(ForgePDF Live is an online edition of the ForgePDF project which contains authentication and APIs. Connects to a Flask backend.)
 
 # Frontend Documentation (Tkinter)
 
